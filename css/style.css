@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.body{
+    font-family: serif;
+    font-size: 30px;
+    line-height: 40px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6,{
+    font-family:monospace;
+}
+.hover .a:hover{
+    text-decoration: none;
+}
+.Green{
+  width: 750px;
+  height: 350px;
+  background: #006a4e;
+  position: relative;
+  margin: 90px 0px 0px 25%;
+  border: 1px solid black;
+}
+.Red{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background: #f42a41;
+    position: absolute;
+    top: 22%;
+    left: 35%;
+    z-index: 0;
+
+}.share{
+    width: 150px;
+    top: 3%;
+    right: -80px;
+    position: fixed;
+    transition: 1s;
+}
+.share:hover{
+    right: 7px;
+    cursor: pointer;
+}
+.flag{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 60px;
+    color: rgb(211, 89, 89);
+}
+.map{
+    width: 155px;
+    height: 155px;
+    z-index: 1;
+    position: absolute;
+    top: 30%;
+    left:38%;
+}
+.dark{
+    text-align: center;
+    margin-top: 25px;
+}
+.social-media{
+    width: 100%;
+    height: 90px;
+    background: #F3F0E0;
+    margin-top: 80px;
+    margin-bottom: 5spx;
+}
+.social-icons{
+    width: 100%;
+    text-align: center;
+}
+.social-icons li{
+    list-style: none;
+    display: inline-block;
+}
+.social-icons li a .fa{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 100%;
+    font-size: 20px;
+    margin: 0px 15px;;
+    position: relative;
+    top: 22px;
+    transition: 0.3s;
+    box-shadow: 1px 3px 2px 2px;
+
+}
+.fa-facebook{
+    background:white;
+    color: #2F8AC4;
+    border: 3px solid white;
+}
+.social-icons .fa-facebook:hover{
+    background:#17A5F5 ;
+    color: #1f2427;
+    cursor: pointer;
+    transform:  scale(1.1);
+}
+.fa-instagram{
+    background:white;
+    color: #FE0000;
+    border:3px solid white;
+}
+.fa-twitter{
+    background:white;
+    color: #1C9AE8;
+    border: 3px solid white;
+}
+.fa-youtube-play{
+    background:white ;
+    color: #F70000;
+    border:3px solid white;
+}
+.social-icons .fa-instagram:hover{
+    background:#fe0000 ;
+    color: #1f2427;
+    cursor: pointer;
+    transform:  scale(1.1);
+
+}
+.social-icons .fa-twitter:hover{
+    background:#17A5F5 ;
+    color: #1f2427;
+    cursor: pointer;
+    transform:  scale(1.1);
+
+}
+.social-icons .fa-youtube-play:hover{
+    background:#F70000;
+    color: #1f2427;
+    cursor: pointer;
+    transform:  scale(1.1);
+
+}
+
+
+
